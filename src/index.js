@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import contacts from "./contacts"
 
-ReactDOM.render(<App contact={contacts}/>, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
 
 //2. Extract the contact card as a reusable Card component.
 //3. Use props to render the default Beyonce contact card
